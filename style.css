@@ -121,6 +121,14 @@ h1,h2 {
     display: none;
 }
 
+.proximo,.anterior {
+    background-color: #151515;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+}
+
 @media screen and (max-width:1470px) {
 
     h1 {
