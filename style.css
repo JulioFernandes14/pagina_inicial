@@ -230,6 +230,36 @@ h1,h2 {
     width: 50%;
 }
 
+/* Estilo rodapé */
+
+footer {
+    background-color: #ccfe06;
+}
+
+.logo_rodape {
+    padding-bottom: 100px;
+}
+
+.dados {
+    padding: 10px;
+}
+
+.dados a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.dados,.informacao h3 {
+    width: 80%;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 @media screen and (max-width:1470px) {
 
     h1 {
