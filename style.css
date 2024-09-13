@@ -213,6 +213,23 @@ h1,h2 {
     margin: 0;
 }
 
+/* Estilo Depoimentos */
+
+.cliente {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cliente p {
+    color: #fff;
+}
+
+.cliente .avaliacao {
+    width: 50%;
+}
+
 @media screen and (max-width:1470px) {
 
     h1 {
