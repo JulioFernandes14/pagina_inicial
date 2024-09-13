@@ -11,6 +11,7 @@
 
 body {
     font-size: 18px;
+    overflow-x: hidden;
 }
 /* Estilo menu */
 header {
@@ -140,7 +141,7 @@ h1,h2 {
     padding: 50px;
 }
 
-.esportes h1 {
+.titulo-sessao {
     text-align: right;
     font-size: 3rem;
     margin-bottom: 100px;
@@ -172,6 +173,46 @@ h1,h2 {
     text-decoration: none;
 }
 
+/*Estilo Ofertas*/
+
+.ofertas {
+    background-color: #fff;
+}
+
+.content-ofertas {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.content-ofertas h1, .content-ofertas p,.link-ofertas {
+    width: 70%;
+}
+
+.content-ofertas p {
+    font-size: 22px;
+}
+
+.link-ofertas {
+    text-align: left;
+}
+
+.content-ofertas a {
+    text-decoration: none;
+    background-color: #151515;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 55px;
+}
+
+.titulo-ofertas {
+    text-align: left;
+    color: #151515;
+    margin: 0;
+}
+
 @media screen and (max-width:1470px) {
 
     h1 {
@@ -184,6 +225,10 @@ h1,h2 {
 
     .sessao {
         padding: 30px;
+    }
+
+    .content-ofertas h1, .content-ofertas p,.link-ofertas {
+        width: 80%;
     }
 
 }
@@ -204,6 +249,10 @@ h1,h2 {
 
     .sessao {
         padding: 20px;
+    }
+
+    .content-ofertas h1, .content-ofertas p,.link-ofertas {
+        width: 100%;
     }
 
 }
@@ -254,8 +303,12 @@ h1,h2 {
         gap: 10px;
     }
 
-    .esportes h1 {
+    .titulo-sessao {
         margin-bottom: 40px;
+    }
+
+    .img-ofertas {
+        text-align: center;
     }
 
 }
@@ -286,6 +339,10 @@ h1,h2 {
         padding: 10px 30px 10px 30px;
     }
 
+    .img-ofertas img {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width:510px) {
@@ -297,6 +354,10 @@ h1,h2 {
 
     .categoria {
         font-size: 16px;
+    }
+
+    .content-ofertas {
+        padding: 30px;
     }
 
 }
@@ -332,8 +393,20 @@ h1,h2 {
         opacity: 1;
     }
 
-    .esportes h1 {
+    .titulo-sessao {
         font-size: 2.2rem;
+    }
+
+    .content-ofertas {
+        padding: 10px;
+    }
+
+    .link-ofertas a {
+        padding: 20px;
+    }
+
+    .img-ofertas {
+        margin-top: 30px;
     }
 
 }
